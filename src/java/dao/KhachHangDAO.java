@@ -17,4 +17,10 @@ public class KhachHangDAO extends DAO{
     public boolean themKhachHang(KhachHang kh){
         return true;
     }
+    public KhachHang Login(String username,String password){
+        return new KhachHang();
+    }
+    public KhachHang getUser(){
+        return new KhachHang();
+    }
 }

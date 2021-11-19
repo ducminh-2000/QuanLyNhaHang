@@ -22,4 +22,7 @@ public class MonAnDAO extends DAO{
     public boolean capnhatmonan(MonAn ma){
         return true;
     }
+    public ArrayList<MonAn> getAll(){
+        return new ArrayList<MonAn>();
+    }
 }
